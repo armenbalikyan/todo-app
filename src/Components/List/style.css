@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+main.ant-layout-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.todos{
+    justify-content: center !important;
+    flex-direction: column;
+}
+.todo{
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+    padding: 15px;
+    border-radius: 10%;
+    margin: 15px;
+    margin-top: 170px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
